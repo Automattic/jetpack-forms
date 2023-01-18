@@ -14,9 +14,4 @@ class Jetpack_Forms {
 
 	const PACKAGE_VERSION = '0.1.0-alpha';
 
-	/**
-	 * Load the contact form module.
-	 */
-	public static function load_contact_form() {
-	}
 }

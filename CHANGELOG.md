@@ -11,4 +11,3 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added a new jetpack/forms package
-- Added a public load_contact_form method for initializing the contact form module.
