@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "@automattic/jetpack-forms",
-	"version": "0.3.0-alpha",
+	"version": "0.3.0",
 	"description": "Jetpack Forms",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/packages/forms/#readme",
 	"bugs": {
@@ -26,7 +26,7 @@
 	},
 	"dependencies": {
 		"@automattic/jetpack-components": "workspace:*",
-		"@automattic/jetpack-shared-extension-utils": "^0.8.3-alpha",
+		"@automattic/jetpack-shared-extension-utils": "^0.8.3",
 		"@wordpress/block-editor": "10.5.0",
 		"@wordpress/blocks": "11.21.0",
 		"@wordpress/compose": "5.20.0",
