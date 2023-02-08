@@ -5,14 +5,14 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"automattic/jetpack-blocks": "^1.4.19",
-		"automattic/jetpack-assets": "^1.17.30",
-		"automattic/jetpack-connection": "^1.50.0",
+		"automattic/jetpack-assets": "^1.17.31-alpha",
+		"automattic/jetpack-connection": "^1.50.1-alpha",
 		"automattic/jetpack-status": "^1.16.1"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.4",
 		"automattic/jetpack-changelogger": "^3.3.1",
-		"automattic/jetpack-connection": "^1.50.0",
+		"automattic/jetpack-connection": "^1.50.1-alpha",
 		"automattic/wordbless": "^0.4.1"
 	},
 	"autoload": {
