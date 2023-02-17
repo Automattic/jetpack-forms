@@ -29,7 +29,7 @@
 	],
 	"dependencies": {
 		"@automattic/jetpack-components": "workspace:*",
-		"@automattic/jetpack-shared-extension-utils": "^0.8.4",
+		"@automattic/jetpack-shared-extension-utils": "^0.9.0-alpha",
 		"@wordpress/block-editor": "11.3.0",
 		"@wordpress/blocks": "12.3.0",
 		"@wordpress/compose": "6.3.0",
