@@ -49,14 +49,14 @@
 		"redux-thunk": "2.3.0",
 		"sass": "1.38.1",
 		"semver": "7.3.5",
-		"webpack": "5.72.1",
+		"webpack": "5.76.0",
 		"webpack-cli": "4.9.1"
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "2.5.0",
 		"@automattic/jetpack-base-styles": "^0.3.20",
 		"@automattic/jetpack-webpack-config": "workspace:*",
-		"@automattic/remove-asset-webpack-plugin": "^1.0.18",
+		"@automattic/remove-asset-webpack-plugin": "^1.0.19-alpha",
 		"@babel/core": "7.20.7",
 		"@babel/plugin-proposal-nullish-coalescing-operator": "7.18.6",
 		"@babel/plugin-transform-react-jsx": "7.20.7",
