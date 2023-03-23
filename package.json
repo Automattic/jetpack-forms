@@ -30,7 +30,7 @@
 	],
 	"dependencies": {
 		"@automattic/jetpack-components": "workspace:*",
-		"@automattic/jetpack-shared-extension-utils": "^0.9.2-alpha",
+		"@automattic/jetpack-shared-extension-utils": "^0.9.2",
 		"@wordpress/block-editor": "11.5.0",
 		"@wordpress/blocks": "12.5.0",
 		"@wordpress/compose": "6.5.0",
