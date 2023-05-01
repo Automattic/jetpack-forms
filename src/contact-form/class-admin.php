@@ -665,12 +665,12 @@ class Admin {
 	public function grunion_manage_post_column_from( $post ) {
 		$content_fields = Contact_Form_Plugin::parse_fields_from_content( $post->ID );
 
-		if ( ! empty( $content_fields['_feedback_author'] ) ) {
+		if ( isset( $content_fields['_feedback_author'] ) ) {
 			echo esc_html( $content_fields['_feedback_author'] );
 			return;
 		}
 
-		if ( ! empty( $content_fields['_feedback_author_email'] ) ) {
+		if ( isset( $content_fields['_feedback_author_email'] ) ) {
 			printf(
 				"<a href='%1\$s' target='_blank'>%2\$s</a><br />",
 				esc_url( 'mailto:' . $content_fields['_feedback_author_email'] ),
@@ -679,8 +679,8 @@ class Admin {
 			return;
 		}
 
-		if ( ! empty( $content_fields['_feedback_ip'] ) ) {
-			echo esc_html( $content_fields['_feedback_ip'] );
+		if ( isset( $content_fields['_feedback_ip'] ) ) {
+			echo esc_html( $content_fields['feedback_ip'] );
 			return;
 		}
 
