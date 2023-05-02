@@ -5,14 +5,14 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"automattic/jetpack-blocks": "^1.4.21",
-		"automattic/jetpack-assets": "^1.18.2",
-		"automattic/jetpack-connection": "^1.51.8",
+		"automattic/jetpack-assets": "^1.18.2-alpha",
+		"automattic/jetpack-connection": "^1.51.8-alpha",
 		"automattic/jetpack-status": "^1.17.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "1.0.4",
 		"automattic/jetpack-changelogger": "^3.3.2",
-		"automattic/jetpack-connection": "^1.51.8",
+		"automattic/jetpack-connection": "^1.51.8-alpha",
 		"automattic/wordbless": "^0.4.1"
 	},
 	"suggest": {
@@ -52,7 +52,7 @@
 			"link-template": "https://github.com/automattic/jetpack-forms/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.16.x-dev"
+			"dev-trunk": "0.15.x-dev"
 		},
 		"textdomain": "jetpack-forms",
 		"version-constants": {
