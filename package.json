@@ -29,7 +29,7 @@
 		"extends @wordpress/browserslist-config"
 	],
 	"dependencies": {
-		"@automattic/jetpack-components": "^0.41.3-alpha",
+		"@automattic/jetpack-components": "^0.42.0-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^0.11.4-alpha",
 		"@wordpress/block-editor": "12.6.0",
 		"@wordpress/blocks": "12.15.0",
