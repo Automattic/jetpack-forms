@@ -29,7 +29,7 @@
 		"extends @wordpress/browserslist-config"
 	],
 	"dependencies": {
-		"@automattic/jetpack-analytics": "^0.1.27",
+		"@automattic/jetpack-analytics": "^0.1.28-alpha",
 		"@automattic/jetpack-components": "^0.45.1-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^0.13.1-alpha",
 		"@wordpress/block-editor": "12.13.0",
@@ -59,7 +59,7 @@
 		"@automattic/color-studio": "2.5.0",
 		"@automattic/jetpack-base-styles": "^0.6.12-alpha",
 		"@automattic/jetpack-webpack-config": "workspace:*",
-		"@automattic/remove-asset-webpack-plugin": "^1.0.19",
+		"@automattic/remove-asset-webpack-plugin": "^1.0.20-alpha",
 		"@babel/core": "7.23.2",
 		"@babel/runtime": "7.23.2",
 		"@wordpress/api-fetch": "6.42.0",
