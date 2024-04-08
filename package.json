@@ -31,8 +31,8 @@
 	],
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.29",
-		"@automattic/jetpack-components": "^0.51.0-alpha",
-		"@automattic/jetpack-shared-extension-utils": "^0.14.9-alpha",
+		"@automattic/jetpack-components": "^0.51.0",
+		"@automattic/jetpack-shared-extension-utils": "^0.14.9",
 		"@wordpress/block-editor": "12.23.0",
 		"@wordpress/blocks": "12.32.0",
 		"@wordpress/compose": "6.32.0",
@@ -59,7 +59,7 @@
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "2.6.0",
-		"@automattic/jetpack-base-styles": "^0.6.21-alpha",
+		"@automattic/jetpack-base-styles": "^0.6.21",
 		"@automattic/jetpack-webpack-config": "workspace:*",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.21",
 		"@babel/core": "7.24.0",
