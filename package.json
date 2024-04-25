@@ -59,7 +59,7 @@
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "2.6.0",
-		"@automattic/jetpack-base-styles": "^0.6.22",
+		"@automattic/jetpack-base-styles": "^0.6.23-alpha",
 		"@automattic/jetpack-webpack-config": "workspace:*",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.21",
 		"@babel/core": "7.24.0",
