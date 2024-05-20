@@ -8,7 +8,7 @@
 		"automattic/jetpack-blocks": "^2.0.4-alpha",
 		"automattic/jetpack-assets": "^2.1.11-alpha",
 		"automattic/jetpack-connection": "^2.8.3-alpha",
-		"automattic/jetpack-logo": "^2.0.2",
+		"automattic/jetpack-logo": "^2.0.3-alpha",
 		"automattic/jetpack-status": "^3.0.4-alpha",
 		"automattic/jetpack-sync": "^2.16.4-alpha"
 	},
