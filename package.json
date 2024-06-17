@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"name": "@automattic/jetpack-forms",
-	"version": "0.32.1-alpha",
+	"version": "0.32.1",
 	"description": "Jetpack Forms",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/packages/forms/#readme",
 	"bugs": {
@@ -59,7 +59,7 @@
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "2.6.0",
-		"@automattic/jetpack-base-styles": "^0.6.27-alpha",
+		"@automattic/jetpack-base-styles": "^0.6.27",
 		"@automattic/jetpack-webpack-config": "workspace:*",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.21",
 		"@babel/core": "7.24.7",
