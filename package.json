@@ -31,7 +31,7 @@
 	],
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.29",
-		"@automattic/jetpack-components": "^0.54.3",
+		"@automattic/jetpack-components": "^0.54.4-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^0.14.17",
 		"@wordpress/block-editor": "13.2.0",
 		"@wordpress/blocks": "13.2.0",
