@@ -32,7 +32,7 @@
 	"dependencies": {
 		"@automattic/jetpack-analytics": "^0.1.29",
 		"@automattic/jetpack-components": "^0.55.6",
-		"@automattic/jetpack-shared-extension-utils": "^0.15.1",
+		"@automattic/jetpack-shared-extension-utils": "^0.15.2",
 		"@wordpress/block-editor": "13.2.0",
 		"@wordpress/blocks": "13.2.0",
 		"@wordpress/compose": "7.2.0",
