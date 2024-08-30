@@ -61,7 +61,7 @@
 		"@automattic/color-studio": "2.6.0",
 		"@automattic/jetpack-base-styles": "^0.6.30",
 		"@automattic/jetpack-webpack-config": "workspace:*",
-		"@automattic/remove-asset-webpack-plugin": "^1.0.22-alpha",
+		"@automattic/remove-asset-webpack-plugin": "^1.0.22",
 		"@babel/core": "7.24.7",
 		"@babel/runtime": "7.24.7",
 		"@testing-library/dom": "10.1.0",
