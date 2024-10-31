@@ -5,17 +5,17 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-blocks": "^2.0.6",
-		"automattic/jetpack-assets": "^2.3.12",
-		"automattic/jetpack-connection": "^5.1.5",
-		"automattic/jetpack-logo": "^2.0.4",
-		"automattic/jetpack-status": "^4.0.2",
-		"automattic/jetpack-sync": "^3.14.3"
+		"automattic/jetpack-blocks": "^2.0.7-alpha",
+		"automattic/jetpack-assets": "^2.3.13-alpha",
+		"automattic/jetpack-connection": "^5.1.6-alpha",
+		"automattic/jetpack-logo": "^2.0.5-alpha",
+		"automattic/jetpack-status": "^4.0.3-alpha",
+		"automattic/jetpack-sync": "^3.14.4-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.7",
-		"automattic/jetpack-connection": "^5.1.5",
+		"automattic/jetpack-changelogger": "^4.2.8-alpha",
+		"automattic/jetpack-connection": "^5.1.6-alpha",
 		"automattic/wordbless": "^0.4.1"
 	},
 	"suggest": {
@@ -29,6 +29,10 @@
 	"scripts": {
 		"phpunit": [
 			"./vendor/phpunit/phpunit/phpunit --colors=always"
+		],
+		"test-coverage": [
+			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/php/clover.xml\"",
+			"pnpm run test-coverage"
 		],
 		"test-php": [
 			"@composer phpunit"
