@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Enable test coverage.
 
+### Fixed
+- Fix PHPUnit coverage warnings.
+
 ## [0.33.6] - 2024-10-29
 ### Changed
 - Components: Add __nextHasNoMarginBottom to BaseControl-based components, preventing deprecation notices. [#39877]
