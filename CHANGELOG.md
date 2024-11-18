@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - General: Update minimum PHP version to 7.2.
 
+### Fixed
+- Fix a fatal error occurring due to a function receiving an unexpected input type.
+
 ## [0.33.8] - 2024-11-11
 ### Changed
 - Updated package dependencies. [#39999] [#40060]
