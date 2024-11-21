@@ -10,13 +10,13 @@
 		"automattic/jetpack-connection": "^6.1.0-alpha",
 		"automattic/jetpack-logo": "^3.0.0",
 		"automattic/jetpack-status": "^5.0.1-alpha",
-		"automattic/jetpack-sync": "^4.0.0"
+		"automattic/jetpack-sync": "^4.0.1-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
 		"automattic/jetpack-changelogger": "^5.1.0-alpha",
 		"automattic/jetpack-connection": "^6.1.0-alpha",
-		"automattic/wordbless": "^0.4.1"
+		"automattic/wordbless": "^0.4.2"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
