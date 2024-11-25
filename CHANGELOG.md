@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated dependencies.
 - Updated package dependencies.
 
+### Fixed
+- Forms: fixed arrow positioning on select elements
+
 ## [0.34.0] - 2024-11-18
 ### Removed
 - General: Update minimum PHP version to 7.2. [#40147]
