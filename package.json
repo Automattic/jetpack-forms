@@ -33,7 +33,7 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.43",
 		"@automattic/jetpack-analytics": "^0.1.36",
-		"@automattic/jetpack-components": "^0.68.3-alpha",
+		"@automattic/jetpack-components": "^0.69.0-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^0.18.1",
 		"@wordpress/block-editor": "14.14.0",
 		"@wordpress/blocks": "14.8.0",
