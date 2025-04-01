@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.44",
 		"@automattic/jetpack-analytics": "^0.1.36",
-		"@automattic/jetpack-components": "^0.72.0",
+		"@automattic/jetpack-components": "^0.72.1-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^0.18.8",
 		"@wordpress/block-editor": "14.14.0",
 		"@wordpress/blocks": "14.8.0",
@@ -90,7 +90,7 @@
 		"postcss-loader": "6.2.0",
 		"sass": "1.64.1",
 		"sass-loader": "12.4.0",
-		"typescript": "5.0.4"
+		"typescript": "5.8.2"
 	},
 	"optionalDependencies": {
 		"react": "18.3.1",
