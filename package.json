@@ -36,7 +36,7 @@
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.45",
 		"@automattic/jetpack-analytics": "^0.1.36",
 		"@automattic/jetpack-components": "^0.72.4-alpha",
-		"@automattic/jetpack-shared-extension-utils": "^0.18.12-alpha",
+		"@automattic/jetpack-shared-extension-utils": "^0.19.0-alpha",
 		"@wordpress/block-editor": "14.16.0",
 		"@wordpress/blocks": "14.10.0",
 		"@wordpress/components": "29.7.0",
