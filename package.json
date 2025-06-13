@@ -36,7 +36,7 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.46",
 		"@automattic/jetpack-analytics": "^1.0.0",
-		"@automattic/jetpack-components": "^1.1.1",
+		"@automattic/jetpack-components": "^1.1.2-alpha",
 		"@automattic/jetpack-connection": "^1.2.1",
 		"@automattic/jetpack-script-data": "^0.4.3",
 		"@automattic/jetpack-shared-extension-utils": "^1.1.0-alpha",
@@ -63,7 +63,7 @@
 		"gridicons": "3.4.2",
 		"lodash": "4.17.21",
 		"react-redux": "7.2.8",
-		"react-router-dom": "7.6.2",
+		"react-router": "7.6.2",
 		"react-transition-group": "^4.4.5",
 		"redux": "4.2.1",
 		"redux-thunk": "2.3.0",
