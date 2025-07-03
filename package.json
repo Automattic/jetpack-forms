@@ -34,10 +34,10 @@
 		"extends @wordpress/browserslist-config"
 	],
 	"dependencies": {
-		"@automattic/babel-plugin-replace-textdomain": "^1.0.48-alpha",
+		"@automattic/babel-plugin-replace-textdomain": "^1.0.48",
 		"@automattic/jetpack-analytics": "^1.0.2",
-		"@automattic/jetpack-components": "^1.1.9-alpha",
-		"@automattic/jetpack-connection": "^1.2.9-alpha",
+		"@automattic/jetpack-components": "^1.1.10-alpha",
+		"@automattic/jetpack-connection": "^1.2.9",
 		"@automattic/jetpack-script-data": "^0.4.4",
 		"@automattic/jetpack-shared-extension-utils": "^1.3.0-alpha",
 		"@wordpress/base-styles": "6.2.0",
@@ -76,7 +76,7 @@
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "4.1.0",
-		"@automattic/jetpack-base-styles": "^1.0.3-alpha",
+		"@automattic/jetpack-base-styles": "^1.0.3",
 		"@automattic/jetpack-webpack-config": "workspace:*",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.29",
 		"@babel/core": "7.27.7",
