@@ -8,7 +8,6 @@
 		"automattic/jetpack-blocks": "^3.1.0",
 		"automattic/jetpack-assets": "^4.2.0-alpha",
 		"automattic/jetpack-connection": "^6.15.0-alpha",
-		"automattic/jetpack-jwt": "^0.1.0-alpha",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.9.0-alpha",
 		"automattic/jetpack-status": "^5.4.1-alpha",
@@ -61,7 +60,7 @@
 			"link-template": "https://github.com/automattic/jetpack-forms/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "4.0.x-dev"
+			"dev-trunk": "3.2.x-dev"
 		},
 		"textdomain": "jetpack-forms",
 		"version-constants": {
