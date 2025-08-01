@@ -33,7 +33,7 @@
 		"extends @wordpress/browserslist-config"
 	],
 	"dependencies": {
-		"@automattic/babel-plugin-replace-textdomain": "^1.0.51-alpha",
+		"@automattic/babel-plugin-replace-textdomain": "^1.0.51",
 		"@automattic/jetpack-analytics": "^1.0.4-alpha",
 		"@automattic/jetpack-components": "^1.1.17-alpha",
 		"@automattic/jetpack-connection": "^1.4.0-alpha",
