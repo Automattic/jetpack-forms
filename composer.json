@@ -13,7 +13,7 @@
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.10.0",
 		"automattic/jetpack-status": "^6.0.3",
-		"automattic/jetpack-sync": "^4.21.1-alpha",
+		"automattic/jetpack-sync": "^4.21.1",
 		"automattic/jetpack-admin-ui": "^0.5.11"
 	},
 	"require-dev": {
@@ -62,7 +62,7 @@
 			"link-template": "https://github.com/automattic/jetpack-forms/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "6.1.x-dev"
+			"dev-trunk": "6.2.x-dev"
 		},
 		"textdomain": "jetpack-forms",
 		"version-constants": {
