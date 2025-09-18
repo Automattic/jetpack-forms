@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.51",
 		"@automattic/jetpack-analytics": "^1.0.4",
-		"@automattic/jetpack-components": "^1.3.2",
+		"@automattic/jetpack-components": "^1.3.3-alpha",
 		"@automattic/jetpack-connection": "^1.4.9",
 		"@automattic/jetpack-script-data": "^0.5.3",
 		"@automattic/jetpack-shared-extension-utils": "^1.3.16",
@@ -75,14 +75,14 @@
 		"redux": "4.2.1",
 		"redux-thunk": "2.3.0",
 		"semver": "7.7.1",
-		"webpack": "5.94.0",
+		"webpack": "5.101.3",
 		"webpack-cli": "6.0.1"
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "4.1.0",
 		"@automattic/jetpack-base-styles": "^1.0.9",
 		"@automattic/jetpack-webpack-config": "workspace:*",
-		"@automattic/remove-asset-webpack-plugin": "^1.0.31",
+		"@automattic/remove-asset-webpack-plugin": "^1.0.32-alpha",
 		"@babel/core": "7.28.0",
 		"@babel/runtime": "7.27.6",
 		"@testing-library/dom": "10.4.0",
