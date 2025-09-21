@@ -2451,13 +2451,13 @@ class Contact_Form extends Contact_Form_Shortcode {
 
 		$raw_data = array();
 		// phpcs:ignore WordPress.Security.NonceVerification.Missing
-		if ( isset( $_POST[ $field_id ] ) ) {
-
-			// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized, WordPress.Security.NonceVerification.Missing
-			$raw_post_data = wp_unslash( $_POST[ $field_id ] );
-			if ( is_array( $raw_post_data ) ) {
-				$raw_data = array_map( 'sanitize_text_field', $raw_post_data );
-			}
+		if ( isset( $_POST[ $field_id ] ) ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing
+    $raw = wp_unslash( $_POST[ $field_id ] );
+    if ( is_array( $raw ) ) {
+        return array_map( 'sanitize_textarea_field', $raw );
+    } else {
+        return sanitize_textarea_field( (string) $raw );
+    }
 		}
 
 		$file_data_array = is_array( $raw_data )
