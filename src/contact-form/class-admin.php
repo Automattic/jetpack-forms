@@ -241,7 +241,7 @@ class Admin {
 				<div class="export-card__body-cta">
 					<?php
 					// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- we're literally building all this html to output it
-					echo $button_csv_html;
+					// Allow expected HTML but strip unsafe tags: echo wp_kses_post( $button_csv_html );
 					// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- we're literally building all this html to output it
 					echo wp_nonce_field( 'feedback_export', $this->export_nonce_field_csv, false, false );
 					?>
