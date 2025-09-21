@@ -296,16 +296,18 @@ class Contact_Form_Plugin {
 		);
 
 		// POST handler
-		if (
-			isset( $_SERVER['REQUEST_METHOD'] ) && 'POST' === strtoupper( sanitize_text_field( wp_unslash( $_SERVER['REQUEST_METHOD'] ) ) )
-			&&
-			isset( $_POST['action'] ) && 'grunion-contact-form' === $_POST['action'] // phpcs:ignore WordPress.Security.NonceVerification.Missing -- nonce verification should happen when hook fires.
-			&&
-			isset( $_POST['contact-form-id'] ) // phpcs:ignore WordPress.Security.NonceVerification.Missing -- no site changes
-		) {
-			add_action( 'template_redirect', array( $this, 'process_form_submission' ) );
-		}
-
+if ( 
+    isset( $_SERVER['REQUEST_METHOD'] ) && 'POST' === strtolower( sanitize_text_field( wp_unslash( $_SERVER['REQUEST_METHOD'] ) ) )
+    && isset( $_POST['action'] ) && 'grunion-contact-form' === sanitize_text_field( wp_unslash( $_POST['action'] ) )
+    && isset( $_POST['contact-form-id'] )
+) {
+    // Verify the form nonce early to avoid attaching handlers for forged requests.
+    if ( ! empty( $_POST['grunion_contact_form_nonce'] ) && wp_verify_nonce( wp_unslash( $_POST['grunion_contact_form_nonce'] ), 'grunion-contact-form' ) ) {
+        add_action( 'template_redirect', array( $this, 'process_form_submission' ) );
+    } else {
+        // Invalid nonce — do not attach handler.
+    }
+}
 		/*
 		 * Can be dequeued by placing the following in wp-content/themes/yourtheme/functions.php
 		 *
