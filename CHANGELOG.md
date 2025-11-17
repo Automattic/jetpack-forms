@@ -9,14 +9,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Forms: add formTitle on default attributes so it persists throughout parsing and processing
+
 ### Changed
+- Forms: add a new filter for the JWT token error.
+- Forms: componentize response file field
 - Forms: fix regression making our dashboard not scrollable
+- Forms: improve MailPoet subscriber handling.
+- Forms: Optimistically move items from/to inbox/spam/trash
+- Forms: render badges in unread/read column when visible
 - Forms: show country name as tooltip in IP flags
 - Forms: split styles into smaller files alongside their respective components
 - Forms: use core WP colors for basic primitive components such as buttons at Forms dashboard.
+- Update package dependencies.
 
 ### Removed
 - Forms: clean up code and styles
+
+### Fixed
+- Forms: address spacing issues on single input forms
+- Forms: Fix Delete spam and Empty trash actions
+- Pass requiredText from option block to checkbox field. Add test coverage.
 
 ## [6.16.0] - 2025-11-10
 ### Added
