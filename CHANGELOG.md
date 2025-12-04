@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.21.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [6.21.2] - 2025-12-04
 ### Fixed
-- Forms: Use the correct case on cipher names
+- Forms: Use the correct case on cipher names [#46189]
 
 ## [6.21.1] - 2025-12-03
 ### Fixed
@@ -1945,7 +1942,7 @@ This is an alpha version! The changes listed here are not final.
 - Added a new jetpack/forms package [#28409]
 - Added a public load_contact_form method for initializing the contact form module. [#28416]
 
-[6.21.2-alpha]: https://github.com/automattic/jetpack-forms/compare/v6.21.1...v6.21.2-alpha
+[6.21.2]: https://github.com/automattic/jetpack-forms/compare/v6.21.1...v6.21.2
 [6.21.1]: https://github.com/automattic/jetpack-forms/compare/v6.21.0...v6.21.1
 [6.21.0]: https://github.com/automattic/jetpack-forms/compare/v6.20.0...v6.21.0
 [6.20.0]: https://github.com/automattic/jetpack-forms/compare/v6.19.0...v6.20.0
