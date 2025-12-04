@@ -19,9 +19,9 @@ export const Key = {
  *
  * @param {string}      evt     the name of the event to handle
  * @param {HTMLElement} el      the element to attach to
- * @param {Function}    handler the event handler
+ * @param {function}    handler the event handler
  *
- * @returns {Function} the off function
+ * @returns {function} the off function
  */
 export function on( evt: string, el: HTMLElement, handler: EventListenerOrEventListenerObject ) {
 	el.addEventListener( evt, handler, true );

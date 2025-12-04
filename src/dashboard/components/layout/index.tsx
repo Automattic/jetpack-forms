@@ -18,7 +18,6 @@ const Layout = () => {
 	const [ isSm ] = useBreakpointMatch( 'sm' );
 
 	const enableIntegrationsTab = useConfigValue( 'isIntegrationsEnabled' );
-	const showDashboardIntegrations = useConfigValue( 'showDashboardIntegrations' );
 	const isLoadingConfig = enableIntegrationsTab === undefined;
 
 	const isIntegrationsOpen = location.pathname === '/integrations';
@@ -33,7 +32,7 @@ const Layout = () => {
 		<div className="jp-forms-layout">
 			<div className="jp-forms-layout__content">
 				{ ! isLoadingConfig && <Outlet /> }
-				{ isIntegrationsOpen && showDashboardIntegrations && <Integrations /> }
+				{ isIntegrationsOpen && <Integrations /> }
 			</div>
 		</div>
 	);
