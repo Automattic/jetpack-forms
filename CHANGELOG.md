@@ -10,11 +10,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add Jetpack Form custom post type for reusable forms with REST API support and feature flag integration
 - Forms: Add CTA to install/activate Akismet on empty spam dashboard
 
 ### Changed
 - Add jetpack_forms_extra_webhooks filter and include feedback ID in jetpack_forms_before_webhook_request filter
+- Forms: auto-generate webhook id so users don't have to fill it.
 - Forms: refactored how we retrieve form submission fields to send in the webhook payload.
+- Forms: track webhook requests done in wpcom infrastructure.
+- Forms: track when users enable and disable webhooks.
+- Forms: use entire button area for selecting multi-select options
 - Replace use of confusing `esc_js` with `wp_json_encode`.
 - Tests: Replace PHPUnit mocks with anonymous classes to eliminate PHPUnit 12 strictness warnings
 - Update package dependencies.
@@ -24,7 +29,11 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fix export functionality to handle null values properly for IP Address, Country code, and Browser fields
+- Fix `Contact_Form_Endpoint_Test::test_resend_email` attempting to actually send email.
+- Forms: ensure submission summary is contained within 100% width
+- Forms: Fix dashboard height
 - Forms: Fix slider field text labels showing borders in editor when using certain themes like Assembler
+- Forms: fix validation accessibility.
 - Make form buttons take full width on mobile devices
 
 ## [6.22.0] - 2025-12-08
