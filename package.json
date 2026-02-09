@@ -90,14 +90,14 @@
 		"redux": "4.2.1",
 		"redux-thunk": "2.3.0",
 		"semver": "7.7.3",
-		"webpack": "5.101.3",
+		"webpack": "5.104.1",
 		"webpack-cli": "6.0.1"
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "4.1.0",
 		"@automattic/jetpack-base-styles": "^1.0.15",
 		"@automattic/jetpack-webpack-config": "workspace:*",
-		"@automattic/remove-asset-webpack-plugin": "^1.0.33",
+		"@automattic/remove-asset-webpack-plugin": "^1.0.34-alpha",
 		"@babel/core": "7.28.4",
 		"@babel/runtime": "7.28.4",
 		"@svgr/webpack": "8.1.0",
