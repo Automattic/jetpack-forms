@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-blocks": "^3.3.0",
-		"automattic/jetpack-assets": "^4.3.23",
+		"automattic/jetpack-assets": "^4.3.24-alpha",
 		"automattic/jetpack-connection": "^7.0.3",
 		"automattic/jetpack-device-detection": "^3.4.0",
 		"automattic/jetpack-external-connections": "^0.1.15",
@@ -19,7 +19,7 @@
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-changelogger": "^6.0.13",
+		"automattic/jetpack-changelogger": "^6.0.14-alpha",
 		"automattic/jetpack-connection": "^7.0.3",
 		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.3",
