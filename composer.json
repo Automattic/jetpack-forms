@@ -9,7 +9,7 @@
 		"automattic/jetpack-assets": "^4.3.24-alpha",
 		"automattic/jetpack-connection": "^7.1.0-alpha",
 		"automattic/jetpack-device-detection": "^3.4.0",
-		"automattic/jetpack-external-connections": "^0.1.15",
+		"automattic/jetpack-external-connections": "^0.1.16-alpha",
 		"automattic/jetpack-jwt": "^0.2.2",
 		"automattic/jetpack-logo": "^3.0.5",
 		"automattic/jetpack-plans": "^0.11.2",
