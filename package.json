@@ -43,8 +43,8 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.53",
 		"@automattic/jetpack-analytics": "^1.0.7",
-		"@automattic/jetpack-components": "^1.4.12",
-		"@automattic/jetpack-connection": "^1.4.33",
+		"@automattic/jetpack-components": "^1.4.13-alpha",
+		"@automattic/jetpack-connection": "^1.4.34-alpha",
 		"@automattic/jetpack-script-data": "^0.5.4",
 		"@automattic/jetpack-shared-extension-utils": "^1.4.11",
 		"@automattic/number-formatters": "^1.0.16",
@@ -99,7 +99,7 @@
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "4.1.0",
-		"@automattic/jetpack-base-styles": "^1.0.15",
+		"@automattic/jetpack-base-styles": "^1.0.16-alpha",
 		"@automattic/jetpack-webpack-config": "workspace:*",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.34",
 		"@babel/core": "7.28.4",
