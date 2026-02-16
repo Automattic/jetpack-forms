@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - File Upload Dropzone: Allow Icon block to be added inside the dropzone.
 - Forms: allow filtering forms dashboard URL.
 - Forms: extract method to util class, introduce new email renderer class
+- Forms: make sure 100% width fields apply properly on mobile
 - Forms: use new email renderer class
 - Update package dependencies.
 
@@ -37,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Contact Form: fix button border color not following the text color on the frontend.
 - Contact Form: Fix crash in block label function and display actual form title with status indicator.
 - Contact Form: fix layout display in widget areas.
+- Contact Form: remove grunion.css dependency from forms layout stylesheet.
 - Form Editor: Fix synced form changes being lost when navigating between page editor and form editor.
 - Form Editor: Prevent empty paragraphs from being inserted outside the form block.
 - Load the wp-build dashboard independently of the Gutenberg plugin.
