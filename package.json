@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-forms",
-	"version": "7.10.0-alpha",
+	"version": "7.11.0-alpha",
 	"private": true,
 	"description": "Jetpack Forms",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/packages/forms/#readme",
@@ -43,10 +43,10 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.55",
 		"@automattic/jetpack-analytics": "^1.0.8",
-		"@automattic/jetpack-components": "^1.4.16-alpha",
-		"@automattic/jetpack-connection": "^1.4.37-alpha",
-		"@automattic/jetpack-script-data": "^0.6.0-alpha",
-		"@automattic/jetpack-shared-extension-utils": "^1.5.1-alpha",
+		"@automattic/jetpack-components": "^1.4.16",
+		"@automattic/jetpack-connection": "^1.4.37",
+		"@automattic/jetpack-script-data": "^0.6.0",
+		"@automattic/jetpack-shared-extension-utils": "^1.5.1",
 		"@automattic/number-formatters": "^1.1.0",
 		"@automattic/request-external-access": "1.0.1",
 		"@gravatar-com/hovercards": "0.15.0",
@@ -97,7 +97,7 @@
 	},
 	"devDependencies": {
 		"@automattic/color-studio": "4.1.0",
-		"@automattic/jetpack-base-styles": "^1.0.18-alpha",
+		"@automattic/jetpack-base-styles": "^1.0.18",
 		"@automattic/jetpack-webpack-config": "workspace:*",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.35",
 		"@babel/core": "7.29.0",
