@@ -44,7 +44,7 @@
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.55",
 		"@automattic/jetpack-analytics": "^1.0.8",
 		"@automattic/jetpack-components": "^1.5.0-alpha",
-		"@automattic/jetpack-connection": "^1.4.38",
+		"@automattic/jetpack-connection": "^1.4.39-alpha",
 		"@automattic/jetpack-script-data": "^0.6.0",
 		"@automattic/jetpack-shared-extension-utils": "^1.5.2",
 		"@automattic/number-formatters": "^1.1.0",
