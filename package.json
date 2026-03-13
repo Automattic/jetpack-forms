@@ -47,7 +47,7 @@
 		"@automattic/jetpack-connection": "^1.4.40-alpha",
 		"@automattic/jetpack-script-data": "^0.6.1",
 		"@automattic/jetpack-shared-extension-utils": "^1.5.4-alpha",
-		"@automattic/number-formatters": "^1.1.1",
+		"@automattic/number-formatters": "^1.1.2-alpha",
 		"@automattic/request-external-access": "1.0.1",
 		"@gravatar-com/hovercards": "0.15.0",
 		"@wordpress/admin-ui": "1.9.0",
