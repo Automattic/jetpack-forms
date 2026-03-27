@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed form rename modal closing even when save fails, so users can retry without losing their input
+- Fixed ref attribute being cleared instead of set during synced form conversion.
 - Fixed undo restoring wrong form status for non-standard statuses in dashboard header actions
 - Fix phone field initialization failure when script module loads after DOMContentLoaded.
 
