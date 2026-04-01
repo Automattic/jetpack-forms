@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-forms",
-	"version": "7.15.0",
+	"version": "7.15.1-alpha",
 	"private": true,
 	"description": "Jetpack Forms",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/packages/forms/#readme",
@@ -44,7 +44,7 @@
 	"dependencies": {
 		"@automattic/babel-plugin-replace-textdomain": "^1.0.56",
 		"@automattic/jetpack-analytics": "^1.0.9",
-		"@automattic/jetpack-components": "^1.7.1-alpha",
+		"@automattic/jetpack-components": "^1.8.0-alpha",
 		"@automattic/jetpack-connection": "^1.4.43-alpha",
 		"@automattic/jetpack-script-data": "^0.6.1",
 		"@automattic/jetpack-shared-extension-utils": "^1.5.6",
