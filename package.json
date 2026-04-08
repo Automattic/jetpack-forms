@@ -46,7 +46,7 @@
 		"@automattic/jetpack-analytics": "^1.0.9",
 		"@automattic/jetpack-components": "^1.8.1-alpha",
 		"@automattic/jetpack-connection": "^1.4.44-alpha",
-		"@automattic/jetpack-script-data": "^0.6.1",
+		"@automattic/jetpack-script-data": "^0.6.2-alpha",
 		"@automattic/jetpack-shared-extension-utils": "^1.5.8-alpha",
 		"@automattic/number-formatters": "^1.1.5-alpha",
 		"@automattic/request-external-access": "1.0.1",
