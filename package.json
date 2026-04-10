@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-forms",
-	"version": "7.16.1-alpha",
+	"version": "7.17.0-alpha",
 	"private": true,
 	"description": "Jetpack Forms",
 	"homepage": "https://github.com/Automattic/jetpack/tree/HEAD/projects/packages/forms/#readme",
