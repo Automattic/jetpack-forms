@@ -8,7 +8,7 @@
 		"automattic/jetpack-blocks": "^3.3.0",
 		"automattic/jetpack-assets": "^4.3.33",
 		"automattic/jetpack-wp-build-polyfills": "^0.1.5",
-		"automattic/jetpack-connection": "^8.3.2",
+		"automattic/jetpack-connection": "^8.3.3-alpha",
 		"automattic/jetpack-device-detection": "^3.4.0",
 		"automattic/jetpack-external-connections": "^0.1.25",
 		"automattic/jetpack-jwt": "^0.2.2",
@@ -21,7 +21,7 @@
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-changelogger": "^6.0.14",
-		"automattic/jetpack-connection": "^8.3.2",
+		"automattic/jetpack-connection": "^8.3.3-alpha",
 		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.4",
 		"automattic/wp-feature-api": "@dev"
