@@ -7,7 +7,7 @@
 		"php": ">=7.2",
 		"automattic/jetpack-blocks": "^3.3.1",
 		"automattic/jetpack-assets": "^4.3.34",
-		"automattic/jetpack-wp-build-polyfills": "^0.1.6",
+		"automattic/jetpack-wp-build-polyfills": "^0.1.7-alpha",
 		"automattic/jetpack-connection": "^8.3.3",
 		"automattic/jetpack-device-detection": "^3.4.1",
 		"automattic/jetpack-external-connections": "^0.1.26",

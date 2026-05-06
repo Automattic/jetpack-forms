@@ -100,7 +100,7 @@
 		"@automattic/color-studio": "4.1.0",
 		"@automattic/jetpack-base-styles": "^1.2.1-alpha",
 		"@automattic/jetpack-webpack-config": "workspace:*",
-		"@automattic/jetpack-wp-build-polyfills": "^0.1.6",
+		"@automattic/jetpack-wp-build-polyfills": "^0.1.7-alpha",
 		"@automattic/remove-asset-webpack-plugin": "^1.0.37",
 		"@babel/core": "7.29.0",
 		"@babel/runtime": "7.29.2",
