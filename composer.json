@@ -13,7 +13,7 @@
 		"automattic/jetpack-external-connections": "^0.1.29",
 		"automattic/jetpack-jwt": "^0.2.4",
 		"automattic/jetpack-logo": "^3.0.7",
-		"automattic/jetpack-plans": "^0.11.6",
+		"automattic/jetpack-plans": "^0.11.7-alpha",
 		"automattic/jetpack-status": "^6.1.5",
 		"automattic/jetpack-sync": "^4.39.0-alpha",
 		"automattic/jetpack-admin-ui": "^0.8.7-alpha",
