@@ -15,7 +15,7 @@
 		"automattic/jetpack-logo": "^3.0.9-alpha",
 		"automattic/jetpack-plans": "^0.11.9-alpha",
 		"automattic/jetpack-status": "^6.1.7-alpha",
-		"automattic/jetpack-sync": "^4.39.2-alpha",
+		"automattic/jetpack-sync": "^4.40.0-alpha",
 		"automattic/jetpack-admin-ui": "^0.9.1-alpha",
 		"automattic/jetpack-wp-abilities": "^0.1.4-alpha"
 	},
