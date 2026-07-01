@@ -6,22 +6,22 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-blocks": "^3.3.5",
-		"automattic/jetpack-assets": "^4.4.2",
-		"automattic/jetpack-wp-build-polyfills": "^0.1.18",
-		"automattic/jetpack-connection": "^8.7.5",
+		"automattic/jetpack-assets": "^4.4.3-alpha",
+		"automattic/jetpack-wp-build-polyfills": "^0.1.19-alpha",
+		"automattic/jetpack-connection": "^8.7.6-alpha",
 		"automattic/jetpack-device-detection": "^3.4.5",
-		"automattic/jetpack-external-connections": "^0.1.34",
+		"automattic/jetpack-external-connections": "^0.1.35-alpha",
 		"automattic/jetpack-jwt": "^0.2.5",
 		"automattic/jetpack-logo": "^3.0.9",
 		"automattic/jetpack-plans": "^0.11.9",
 		"automattic/jetpack-status": "^6.1.8",
 		"automattic/jetpack-sync": "^4.45.0-alpha",
-		"automattic/jetpack-admin-ui": "^0.9.6",
+		"automattic/jetpack-admin-ui": "^0.9.7-alpha",
 		"automattic/jetpack-wp-abilities": "^0.1.5"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-connection": "^8.7.5",
+		"automattic/jetpack-connection": "^8.7.6-alpha",
 		"automattic/jetpack-test-environment": "@dev",
 		"automattic/phpunit-select-config": "^1.0.9",
 		"automattic/wp-feature-api": "@dev"
