@@ -6,7 +6,7 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-blocks": "^3.3.6",
-		"automattic/jetpack-assets": "^4.4.9",
+		"automattic/jetpack-assets": "^4.4.10-alpha",
 		"automattic/jetpack-wp-build-polyfills": "^0.3.0",
 		"automattic/jetpack-connection": "^8.8.2",
 		"automattic/jetpack-device-detection": "^3.4.5",
