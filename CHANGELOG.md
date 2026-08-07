@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add form fill duration to form entries.
 
 ### Changed
+- Add the site ID and Jetpack version to the response email open tracking event.
 - Update package dependencies.
 
 ### Fixed
