@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Ensure the submit button inside a Form renders as a button element so forms saved without an explicit element can still be submitted.
 - Form block: show the fallback notification recipient as a placeholder so it is clear when no address is saved.
 - Form editor: keep the form block selected so the form settings sidebar stays reachable.
 
