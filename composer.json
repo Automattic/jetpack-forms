@@ -18,7 +18,7 @@
 		"automattic/jetpack-plans": "^0.13.0",
 		"automattic/jetpack-status": "^7.0.0",
 		"automattic/jetpack-sync": "^5.0.1-alpha",
-		"automattic/jetpack-admin-ui": "^0.11.0",
+		"automattic/jetpack-admin-ui": "^0.11.1-alpha",
 		"automattic/jetpack-wp-abilities": "^0.2.0"
 	},
 	"require-dev": {
