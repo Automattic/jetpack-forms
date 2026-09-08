@@ -13,7 +13,7 @@
 		"automattic/jetpack-external-connections": "^0.2.1",
 		"automattic/jetpack-feature-flags": "^0.2.0",
 		"automattic/jetpack-jwt": "^0.3.0",
-		"automattic/jetpack-logo": "^4.0.0",
+		"automattic/jetpack-logo": "^4.0.1-alpha",
 		"automattic/jetpack-menu-badges": "^0.2.0",
 		"automattic/jetpack-plans": "^0.13.0",
 		"automattic/jetpack-status": "^7.0.1-alpha",
