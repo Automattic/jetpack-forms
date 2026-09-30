@@ -11,11 +11,10 @@
 		"automattic/jetpack-connection": "^9.8.2-alpha",
 		"automattic/jetpack-device-detection": "^4.0.0",
 		"automattic/jetpack-external-connections": "^0.2.3",
-		"automattic/jetpack-feature-flags": "^0.2.0",
 		"automattic/jetpack-jwt": "^0.3.0",
 		"automattic/jetpack-logo": "^4.0.1",
 		"automattic/jetpack-menu-badges": "^0.2.1",
-		"automattic/jetpack-plans": "^0.13.0",
+		"automattic/jetpack-plans": "^0.13.1-alpha",
 		"automattic/jetpack-status": "^7.1.0",
 		"automattic/jetpack-sync": "^5.3.0",
 		"automattic/jetpack-admin-ui": "^0.14.2",
@@ -63,7 +62,7 @@
 			"link-template": "https://github.com/automattic/jetpack-forms/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "8.2.x-dev"
+			"dev-trunk": "8.3.x-dev"
 		},
 		"textdomain": "jetpack-forms",
 		"version-constants": {
