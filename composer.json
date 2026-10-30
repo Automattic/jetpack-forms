@@ -6,18 +6,18 @@
 	"require": {
 		"php": ">=7.4",
 		"automattic/jetpack-blocks": "^4.0.1",
-		"automattic/jetpack-assets": "^5.0.16",
-		"automattic/jetpack-wp-build-polyfills": "^0.7.1",
+		"automattic/jetpack-assets": "^5.0.17-alpha",
+		"automattic/jetpack-wp-build-polyfills": "^0.7.2-alpha",
 		"automattic/jetpack-connection": "^9.16.0-alpha",
 		"automattic/jetpack-device-detection": "^4.0.1",
-		"automattic/jetpack-external-connections": "^0.2.8",
+		"automattic/jetpack-external-connections": "^0.2.9-alpha",
 		"automattic/jetpack-jwt": "^0.3.1",
 		"automattic/jetpack-logo": "^4.0.2",
 		"automattic/jetpack-menu-badges": "^0.2.3",
 		"automattic/jetpack-plans": "^0.16.0",
 		"automattic/jetpack-status": "^7.1.1",
 		"automattic/jetpack-sync": "^5.4.4",
-		"automattic/jetpack-admin-ui": "^0.14.10",
+		"automattic/jetpack-admin-ui": "^0.14.11-alpha",
 		"automattic/jetpack-wp-abilities": "^0.2.1"
 	},
 	"require-dev": {
